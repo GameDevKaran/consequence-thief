@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#06101b"><meta name="description" content="Consequence Thief — steal an event's consequence, then choose where reality pays the price. A hand-first WebXR experience.">
+<link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./public/mark.svg" type="image/svg+xml">
+<title>CONSEQUENCE THIEF — Reality Has a Price</title>
+<link rel="stylesheet" href="./style.css"></head><body>
+<canvas id="world" aria-label="Interactive three-dimensional consequence transfer experience"></canvas>
+<div class="veil"></div>
+<header><div class="brand"><img src="./public/mark.svg" alt=""><div><strong>CONSEQUENCE THIEF</strong><small>AN INTERACTIVE IMPOSSIBILITY</small></div></div><div class="edition"><span class="live"></span> PLAYABLE EXPERIMENT / 001</div></header>
+<main id="hud"><div class="spacer"></div><div class="story"><div class="act" id="act">ACT I / THEFT</div><h1 id="title">THE FALL</h1><p id="instruction">WATCH WHAT SHOULD HAPPEN</p><div class="cue"><span class="line"></span><span id="cue">THE WORLD WILL WAIT FOR YOU</span></div></div></main>
+<footer><div class="steps"><span id="step1" class="active">01 / STEAL</span><span id="step2">02 / TRANSFER</span><span id="step3">03 / RECKON</span></div><div class="controls"><span id="mode">DESKTOP: HOLD + RELEASE CLICK / SPACE</span><button id="xr" type="button" disabled>CHECKING VR...</button><button id="restart" type="button">RESTART</button></div></footer>
+<div class="error" id="error" role="alert" hidden></div>
+<script type="module" src="./src/main.js"></script></body></html>
