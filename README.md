@@ -2,6 +2,8 @@
 
 You cannot stop what happens. You can change where the price is paid.
 
+[Play Consequence Thief](https://consequence-thief-564976398462.web.app)
+
 A short, seated WebXR narrative: pinch to extract a luminous consequence from a crystal, carry it in your hand, and release it to fracture a sealed structure. A second pinch redirects the debt into the sky. The final consequence stays visible until you choose to replay.
 
 This is an authored three-act interaction with a fixed destination and ending, rather than a general physics simulation. Session length depends on how long you explore and hold the consequence.
